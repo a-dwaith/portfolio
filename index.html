@@ -6,6 +6,7 @@
     <title>Adwaith M K</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" href="assets/profile-pic (4).png" type="image/icon type">
 </head>
 <body>
     <nav id="desktop-nav">
@@ -18,6 +19,11 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <!-- <li><div class="btn-container"> -->
+                    <!-- <button class="btn btn-color-2" onclick="window.open('./assets/Resume.pdf')"> -->
+                        <!-- Resume -->
+                    <!-- </button> -->
+                <!-- </div></li> -->
             </ul>
         </div>
     </nav>
@@ -41,7 +47,9 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic (4).png" alt="Adwaith's profile pic">
+            <img 
+            src="./assets/profile-pic (4).png" 
+            alt="Adwaith's profile pic">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
@@ -50,22 +58,70 @@
             <div class="btn-container">
                 <button class="btn btn-color-2" 
                 onclick="window.open('./assets/Resume.pdf')">
-                Download CV
+                Resume
             </button>
-            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            <button 
+            class="btn btn-color-1" 
+            onclick="location.href='./#contact'">
                 Contact info
             </button>
             </div> 
             
             <div id="social-container">
-                <img src="./assets/linkedin.png" alt="linkedin" class="icon" 
+                <img src="./assets/linkedin.png" 
+                alt="linkedin" 
+                class="icon" 
                     onclick="window.open('https://www.linkedin.com/in/a-dwaith', '_blank');">
                     <!-- onclick="location.href='https://www.linkedin.com/in/a-dwaith'"> -->
-                <img src="./assets/github.png" alt="linkedin" class="icon" 
+                <img src="./assets/github.png" 
+                alt="linkedin" 
+                class="icon" 
                     onclick="window.open('https://github.com/a-dwaith', '_blank');">
                     <!-- onclick="location.href='https://github.com/a-dwaith','_blank'"> -->
             </div>
         </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to now more</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                src="./assets/about-pic.JPG"
+                alt="about pic" 
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img 
+                        src="./assets/experience.png" 
+                        alt="experience icon" 
+                        class="icon">
+                        <h3>Experience</h3><br>
+                        <p>6 Months <br /> Flutter intern</p>
+                    </div>
+                    <div class="details-container"> 
+                        <img 
+                        src="./assets/education.png" 
+                        alt="experience icon" 
+                        class="icon">
+                        <h3>Education</h3><br>
+                        <p>BTech <br /> Information Technology</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                    Hey everyone! 👋 I'm Adwaith, a Flutter enthusiast who loves turning designs into awesome apps! 🚀 I spent 6 months as an
+                    intern at a startup, soaking in knowledge and enjoying every bit of the journey. 💡 I'm all about embracing challenges
+                    and steadily improving, tweaking my code one step at a time. Let's connect and build cool stuff together! 💻🌟
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="arrow-icon" 
+        class="icon arrow" onclick="location.href='./experience'">
     </section>
     <script src="script.js"></script>
 </body>
