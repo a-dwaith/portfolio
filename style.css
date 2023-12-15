@@ -246,7 +246,9 @@ section {
 #about {
     position: relative;
 }
-
+.text-container {
+    text-align: justify;
+}
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
