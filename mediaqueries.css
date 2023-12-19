@@ -90,7 +90,8 @@
         text-align: justify;
     }
 
-    .contact-info-upper-container {
+    .contact-info-upper-container ,a:hover{
         display:table-row;
+        text-underline-offset:0rem;
     }
 }
