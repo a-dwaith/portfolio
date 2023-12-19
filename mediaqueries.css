@@ -90,4 +90,7 @@
         text-align: justify;
     }
 
+    .contact-info-upper-container {
+        display:table-row;
+    }
 }
